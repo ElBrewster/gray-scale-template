@@ -13,7 +13,7 @@ When set to a monochomatic view, the text is not legible:
 <img width="842" alt="Screen Shot 2023-06-28 at 2 13 55 PM" src="https://github.com/ElBrewster/grayscale-template/assets/113723085/b0f7d5bf-b7b3-4938-aeb8-b5c5fe478937">
 
 (Example of color switch)
-Swap this gray for this blue:
+Swap this gray for this blue of the same value:
 <img width="586" alt="Screen Shot 2023-06-28 at 2 06 16 PM" src="https://github.com/ElBrewster/grayscale-template/assets/113723085/37eeb82d-38a0-4caa-91ee-0b473d13389b">
 
 <img width="598" alt="Screen Shot 2023-06-28 at 2 06 31 PM" src="https://github.com/ElBrewster/grayscale-template/assets/113723085/33af0c38-4791-4fe7-9f18-27890c64a8aa">
