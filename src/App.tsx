@@ -6,7 +6,7 @@ export default function App() {
     <div>
       <Routes>
         <Route path="/" element={<Layout />}>
-
+          {/* pages go here */}
         </Route>
       </Routes>
     </div>
