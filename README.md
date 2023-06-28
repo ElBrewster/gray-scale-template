@@ -4,6 +4,8 @@ This vite app spinup is designed to help style a SPA experience with sighted acc
 
 Hopefully this tool will make the dev experience simpler, since it can keep contrast concerns separate from hue choices, making these decisions more granular and less-interdependent. Once the lights and darks are chosen and in place, a palette can easily be applied by swapping the correctly-weighted color with its hue-less counterpart.
 
+## Example Photos
+
 ## Helpful Stuff
 
 [eyedropper Chrome extension](https://mybrowseraddon.com/color-picker.html)
