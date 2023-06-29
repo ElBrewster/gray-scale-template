@@ -28,6 +28,11 @@ body {
     min-height: 100vh;
 }
 
+h1 {
+    border-bottom: gray;
+    font-weight: 900;
+    padding: .5rem 1rem;
+}
 a {
     align-self: center;
     text-decoration: none;
