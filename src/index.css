@@ -1,5 +1,21 @@
-main {
-    
+.skip-link {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    transition: all 0.5s ease-out;
+}
+.skip-link:focus {
+   position: static;
+   width: auto;
+   height: auto; 
+}
+
+.skip-link:hover,
+.skip-link:active {
+    color: red;
 }
 
 /* 4k screens 3840(2160): */
