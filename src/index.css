@@ -124,6 +124,16 @@ ul:active > * {
 .my-link:active > * {
     fill: lightgray;
 }
+
+.link-button {
+    background-color:gray;
+    border: 1px solid lightgray;
+    border-radius: .2rem;
+    padding: .5rem;
+}
+button {
+    color: gray;
+}
 /* Button  */
 /* Hovers and Actives  */
 /* Form */
