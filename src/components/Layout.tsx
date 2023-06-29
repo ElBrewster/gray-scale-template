@@ -2,11 +2,12 @@ import { Outlet } from "react-router";
 import Footer from "./Footer";
 import Header from "./Header";
 import Aside from "./Aside";
+import SkipNav from "./SkipNav";
 
 export default function Layout() {
     return(
         <div>
-            <a href="main-content">Skip to the main content.</a>
+            <SkipNav />
             <Header />
             <Aside />
             <main id="main-content">
