@@ -30,6 +30,22 @@ a {
     text-decoration: none;
 }
 
+svg,
+img,
+picture,
+.icon-outline {
+    align-self: center;
+    display: block;
+    /* fill: gray; */
+    max-width: 100%;
+}
+
+input, 
+button,
+textarea,
+select {
+  font: inherit;
+}
 /* Accessibility Features ----------------------------- */
 .skip-link {
     position: absolute;
