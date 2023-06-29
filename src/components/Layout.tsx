@@ -6,7 +6,7 @@ import SkipNav from "./SkipNav";
 
 export default function Layout() {
     return(
-        <div>
+        <div className="layout-container">
             <SkipNav />
             <Header />
             <Aside />
