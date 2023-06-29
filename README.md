@@ -18,9 +18,13 @@ Swap this gray for this blue of the same value:
 
 <img width="598" alt="Screen Shot 2023-06-28 at 2 06 31 PM" src="https://github.com/ElBrewster/grayscale-template/assets/113723085/33af0c38-4791-4fe7-9f18-27890c64a8aa">
 
-
 ## Helpful Stuff
 
 [eyedropper Chrome extension](https://mybrowseraddon.com/color-picker.html)
 
 [Wikipedia on Grayscale](https://en.wikipedia.org/wiki/Grayscale)
+
+## Other Accessibility Links
+
+[skipnav](https://webaim.org/techniques/skipnav/)
+_Note: on first page load hit tab to see link to skip main content_
