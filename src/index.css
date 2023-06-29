@@ -37,6 +37,11 @@ h1 {
     font-weight: 900;
     padding: .5rem 1rem;
 }
+
+h2 {
+    font-weight: 700;
+    padding: .5rem 1rem;
+}
 a {
     align-self: center;
     text-decoration: none;
@@ -96,10 +101,12 @@ aside {
 }
 
 nav {
+    border-bottom: 1px solid gray;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     min-width: 100vw;
+    padding: .5rem;
 }
 /* Aside & Nav  */
 /* h2 headers and "main" contents */
@@ -109,18 +116,19 @@ nav {
 
 /* Accessibility Features ----------------------------- */
 .skip-link {
-    position: absolute;
-    left: -10000px;
-    top: auto;
-    width: 1px;
     height: 1px;
+    left: -10000px;
     overflow: hidden;
+    position: absolute;
+    top: auto;
     transition: all 0.5s ease-out;
+    width: 1px;
 }
+
 .skip-link:focus {
+    height: auto; 
     position: static;
     width: auto;
-    height: auto; 
 }
 
 .skip-link:hover,
