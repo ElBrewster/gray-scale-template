@@ -23,6 +23,7 @@ Swap this gray for this blue of the same value:
 [eyedropper Chrome extension](https://mybrowseraddon.com/color-picker.html)
 
 [Wikipedia on Grayscale](https://en.wikipedia.org/wiki/Grayscale)
+[Wikipedia on Color Contrast](https://en.wikipedia.org/wiki/Web_colors#Color_contrast)
 
 ## Other Accessibility Links
 
