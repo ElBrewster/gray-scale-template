@@ -116,6 +116,14 @@ ul:hover > * {
 ul:active > * {
     color: lightgray;
 }
+
+.my-link:hover > * {
+    fill: gray;
+}
+
+.my-link:active > * {
+    fill: lightgray;
+}
 /* Button  */
 /* Hovers and Actives  */
 /* Form */

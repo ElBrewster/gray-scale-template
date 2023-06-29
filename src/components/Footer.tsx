@@ -15,7 +15,7 @@ export default function Footer() {
                     aria-label="Go to Patt's github page"
                     className="my-link"
                     >
-                    <SiGithub className="icon-github" />
+                        <SiGithub className="icon-github" />
                     </a>&nbsp;
                     <a
                     href="https://www.linkedin.com/in/pattsookmark/"
