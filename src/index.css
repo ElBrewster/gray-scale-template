@@ -108,8 +108,14 @@ nav {
     min-width: 100vw;
     padding: .5rem;
 }
-/* Aside & Nav  */
-/* h2 headers and "main" contents */
+
+ul:hover > * {
+    color: gray;
+}
+
+ul:active > * {
+    color: lightgray;
+}
 /* Button  */
 /* Hovers and Actives  */
 /* Form */
