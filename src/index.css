@@ -16,6 +16,7 @@ body,
 h1,
 h2,
 h3,
+small,
 p {
     margin: 0;
 }
@@ -64,11 +65,14 @@ main {
 footer {
     border-top: 1px solid gray;
     display: flex;
+    padding: .5rem;
 }
 
+.a-tags-container,
 .footer-note {
     display: flex;
 }
+
 .footer-wrapper {
     display: flex;
     justify-content: space-evenly;
