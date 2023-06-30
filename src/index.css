@@ -176,8 +176,24 @@ button {
 @media (768px <= width <= 1023px) {}
 
 /* Surface Duo 540(720) width up to iPad Mini width: */
-@media (540px <= width <= 767px) {}
+@media (540px <= width <= 767px) {
+    header {
+        display: flex;
+        justify-content: center;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
 
 /* iPhone XR 414px width */
 /* Galaxy Fold width up to Surface Duo width: */
-@media (279px <= width <= 539px) {}
+@media (279px <= width <= 539px) {
+    header {
+        display: flex;
+        justify-content: center;
+    }
+    h1 {
+        font-size: 1.6rem;
+    }
+}
