@@ -109,6 +109,10 @@ nav {
     padding: .5rem;
 }
 
+.top-container {
+    display: flex;
+    flex-direction: column;
+}
 ul:hover > * {
     color: gray;
 }
@@ -168,7 +172,14 @@ button {
 @media (1536px <= width <= 1919px) {}
 /* Nest Hub 1024 width (by 600) */
 /* Nest Hub Max 1280 by 800 */
-@media (1024px <= width <= 1535) {}
+@media (1024px <= width <= 1535px) {
+    header {
+        display: flex;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+}
 
 /* iPad Mini width 768 (by 1024) */
 /* Kindle Fire HDX Linux 800 (by 1280) */

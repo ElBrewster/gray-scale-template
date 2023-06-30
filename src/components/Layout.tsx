@@ -8,8 +8,10 @@ export default function Layout() {
     return(
         <div className="layout-container">
             <SkipNav />
-            <Header />
-            <Aside />
+            <div className="top-container">
+                <Header />
+                <Aside />
+            </div>
             <main id="main-content">
                 <Outlet /> 
             </main>
