@@ -173,7 +173,16 @@ button {
 /* iPad Mini width 768 (by 1024) */
 /* Kindle Fire HDX Linux 800 (by 1280) */
 /* iPad Air width 820(1180) up to Next Hub */
-@media (768px <= width <= 1023px) {}
+@media (768px <= width <= 1023px) {
+    /* here is when we switch to an aside  */
+    header {
+        display: flex;
+        justify-content: center;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+}
 
 /* Surface Duo 540(720) width up to iPad Mini width: */
 @media (540px <= width <= 767px) {
