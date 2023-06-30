@@ -186,7 +186,44 @@ button {
 @media (min-width: 3840px) {}
 /* What about the classic 1920 by 1080?? */
 @media (1920px <= width <= 3839px) {}
-@media (1536px <= width <= 1919px) {}
+@media (1536px <= width <= 1919px) {
+    header {
+        border-bottom: none;
+        display: flex;
+        justify-content: flex-start;
+        max-width: 50vw;
+        min-width: 50vw;
+        padding-left: 1rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    .top-container {
+        border-bottom: 1px solid gray;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 100vw;
+    }
+   
+    .my-aside {
+        min-width: 40vw;
+        max-width: 50vw;
+    } 
+
+    .nav-bar {
+        border-bottom: none;
+        border-left: 1px solid gray;
+        max-width: 50vw;
+    }
+    .nav-root,
+    .nav-profile,
+    .nav-scoreboard {
+        border: 1px solid white;
+        margin: 0 1rem;
+        padding: .3rem 1rem;
+    }
+}
 /* Nest Hub 1024 width (by 600) */
 /* Nest Hub Max 1280 by 800 */
 @media (1024px <= width <= 1535px) {
