@@ -163,11 +163,18 @@ ul:active > * {
     min-width: 20vw;
     padding: 1rem;
 }
+
 button {
-    background-color: rgb(51, 51, 51);
+    background-color: gray;
+    border: 2px solid lightgray;
+    border-radius: .2rem;
     color: #f8f8f8;
+    padding: .5rem;
 }
-/* Button  */
+button:hover {
+    color: rgb(51, 51, 51);
+
+}
 /* Hovers and Actives  */
 /* Form */
 
