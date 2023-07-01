@@ -1,5 +1,10 @@
+import Form from "../components/Form";
+
 export default function FormPage() {
     return(
-        <h2>Form Devil Page!</h2>
+        <div className="form-page-container">
+            <h2>Form Devil Page!</h2>
+            <Form />
+        </div>
     );
 }

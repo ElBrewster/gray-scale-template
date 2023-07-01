@@ -93,13 +93,13 @@ main {
     flex: 1;
     min-width: 100vw;
 }
-.home-h2 {
-    flex-basis: 0;
-}
+
+.form-page-container,
 .home-page-container {
     display: flex;
     flex-direction: column;
 }
+
 footer {
     border-top: 1px solid gray;
     display: flex;
@@ -204,7 +204,12 @@ button:active {
 }
 /* Hovers and Actives  */
 /* Form */
-
+.my-form-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 /* Accessibility Features ----------------------------- */
 .skip-link {
     height: 1px;
