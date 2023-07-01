@@ -3,7 +3,7 @@ import Layout from "./components/Layout"
 import Profile from "./pages/Profile";
 import Scoreboard from "./pages/Scoreboard";
 import Home from "./pages/Home";
-import Form from "./pages/Form";
+import FormPage from "./pages/FormPage";
 
 export default function App() {
   return (
@@ -11,7 +11,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index path="/" element={<Home />}></Route>
-          <Route path="/form" element={<Form />}></Route>
+          <Route path="/form-page" element={<FormPage />}></Route>
           <Route path="/profile" element={<Profile />}></Route>
           <Route path="/scoreboard" element={<Scoreboard />}></Route>
           {/* pages go here */}

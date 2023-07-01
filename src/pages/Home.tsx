@@ -7,7 +7,7 @@ export default function Home() {
         <div className="home-page-container">
             <h2>Home Page</h2>
             <div className="button-box">
-                <Link to="/form" className="link-button">Get Devil Form</Link>
+                <Link to="/form-page" className="link-button">Get Devil Form</Link>
             </div>
             <div className="button-box">
                 <Button />
