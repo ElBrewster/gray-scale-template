@@ -153,6 +153,16 @@ ul:active > * {
     border-radius: .2rem;
     padding: .5rem;
 }
+
+.button-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 90vw;
+    min-height: 15rem;
+    min-width: 20vw;
+    padding: 1rem;
+}
 button {
     background-color: rgb(51, 51, 51);
     color: #f8f8f8;
