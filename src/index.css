@@ -43,6 +43,7 @@ h1 {
 h2 {
     font-weight: 700;
     padding: .5rem 1rem;
+    text-align: center;
 }
 a {
     align-self: center;
@@ -93,6 +94,10 @@ main {
     min-width: 100vw;
 }
 
+.home-page-container {
+    display: flex;
+    flex-direction: column;
+}
 footer {
     border-top: 1px solid gray;
     display: flex;
@@ -165,7 +170,7 @@ ul:active > * {
 }
 
 button {
-    background-color: gray;
+    background-color: rgb(142, 142, 142);
     border: 2px solid lightgray;
     border-radius: .2rem;
     color: #0A0A0A;
@@ -179,7 +184,7 @@ button:hover {
 }
 button:active {
     background-color: rgb(210, 209, 209);
-    border: 1px solid gray;
+    border: 1px solid white;
     color: rgb(51, 51, 51);
     padding: .81rem;
 }
@@ -190,8 +195,10 @@ button:active {
 
 .button-active {
     background-color: rgb(210, 209, 209);
-    border: 1px solid gray;
+    border: 1px solid white;
     color: rgb(51, 51, 51);
+    padding: .81rem;
+
 }
 /* Hovers and Actives  */
 /* Form */
