@@ -307,9 +307,13 @@ button {
     .nav-root,
     .nav-profile,
     .nav-scoreboard {
+        background-color: rgb(51, 51, 51);
         border: 1px solid white;
         margin: 0 .5rem;
         padding: .3rem .5rem;
+    }
+    .nav-bar > * > * {
+        background-color: rgb(51, 51, 51);
     }
 }
 
