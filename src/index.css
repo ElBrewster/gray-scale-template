@@ -154,7 +154,8 @@ ul:active > * {
     padding: .5rem;
 }
 button {
-    color: gray;
+    background-color: rgb(51, 51, 51);
+    color: #f8f8f8;
 }
 /* Button  */
 /* Hovers and Actives  */
