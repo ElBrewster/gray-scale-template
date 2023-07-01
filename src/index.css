@@ -152,13 +152,6 @@ ul:active > * {
     fill: lightgray;
 }
 
-.link-button {
-    background-color:gray;
-    border: 1px solid lightgray;
-    border-radius: .2rem;
-    padding: .5rem;
-}
-
 .button-box {
     display: flex;
     flex-direction: column;
@@ -169,6 +162,7 @@ ul:active > * {
     padding: 1rem;
 }
 
+.link-button,
 button {
     background-color: rgb(142, 142, 142);
     border: 2px solid lightgray;
@@ -177,11 +171,15 @@ button {
     margin: .5rem;
     padding: .75rem;
 }
+
+.link-button:hover,
 button:hover {
     background-color: white;
     color: rgb(51, 51, 51);
 
 }
+
+.link-button:active,
 button:active {
     background-color: rgb(210, 209, 209);
     border: 1px solid white;
