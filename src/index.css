@@ -45,6 +45,7 @@ h2 {
     padding: .5rem 1rem;
     text-align: center;
 }
+
 a {
     align-self: center;
     text-decoration: none;
@@ -62,6 +63,7 @@ ul[role='list'],
 ol[role='list'] {
   list-style: none;
 }
+
 svg,
 img,
 picture,
@@ -138,6 +140,7 @@ nav {
     min-width: 100vw;
 }
 
+/* buttons and links */
 ul:hover > * {
     color: gray;
 }
@@ -202,7 +205,7 @@ button:active {
     padding: .81rem;
 
 }
-/* Hovers and Actives  */
+
 /* Form */
 .my-form-container {
     align-items: center;
@@ -210,6 +213,7 @@ button:active {
     flex-direction: column;
     justify-content: space-around;
 }
+
 /* Accessibility Features ----------------------------- */
 .skip-link {
     height: 1px;
