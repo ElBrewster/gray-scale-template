@@ -22,8 +22,20 @@ export default function Form() {
                     <option value="four">four</option>
                 </select>
             </div>
-            <div className="input-container"></div>
-            <div className="input-container"></div>
+            <fieldset className="radio-container">
+                <legend>Let's Have Some Radios!!!</legend>
+                <input type="radio" value="yes"/>
+                <label htmlFor="yes"></label>
+                <br />
+                <input type="radio" value="no"/>
+                <label htmlFor="no"></label>
+                <br />
+                <input type="radio" value="occasionally"/>
+                <label htmlFor="occasionally"></label>
+            </fieldset>
+            <div className="textarea-container">
+                <textarea name="comments" placeholder="Add Your Comments!"/>
+            </div>
             <label htmlFor="my-input">YO
                 <input name="my-input" type="text" />
             </label>
