@@ -36,9 +36,10 @@ export default function Form() {
             <div className="textarea-container">
                 <textarea name="comments" placeholder="Add Your Comments!"/>
             </div>
-            <label htmlFor="my-input">YO
-                <input name="my-input" type="text" />
-            </label>
+            <div className="checkbox-container">
+                <input type="checkbox" name="completed-survey"/>
+                <label htmlFor="completed-survey">Did you complete our survey?</label>
+            </div>
             <button>SUBMIT</button>
         </form>
     );
