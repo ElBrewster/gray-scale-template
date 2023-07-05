@@ -26,7 +26,7 @@ Swap this gray for this blue of the same value:
 ## Helpful Stuff
 
 [eyedropper Chrome extension](https://mybrowseraddon.com/color-picker.html)
-
+[RGB to grayscale tool](https://goodcalculators.com/rgb-to-grayscale-conversion-calculator/)
 [Wikipedia on Grayscale](https://en.wikipedia.org/wiki/Grayscale)
 [Wikipedia on Color Contrast](https://en.wikipedia.org/wiki/Web_colors#Color_contrast)
 
