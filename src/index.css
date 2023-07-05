@@ -444,6 +444,26 @@ textarea::placeholder {
     h1 {
         font-size: 2rem;
     }
+    .my-form-container {
+        min-width: 80vw;
+        padding: .5rem;
+    }
+    .input-container,
+    .select-container,
+    .radio-container,
+    .textarea-container,
+    .checkbox-container {
+        margin: .3rem;
+        min-width: 75vw;
+    }
+    .my-input {
+        min-width: 50vw;
+    }
+    
+    .my-textarea {
+        min-height: 5rem;
+        min-width: 60vw;
+    }
 }
 
 /* iPhone XR 414px width */
