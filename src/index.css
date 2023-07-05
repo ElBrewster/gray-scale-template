@@ -209,16 +209,23 @@ button:active {
 /* Form */
 .my-form-container {
     align-items: center;
+    border: 1px solid gray;
     display: flex;
     flex-direction: column;
+    font-size: small;
     justify-content: space-around;
+    min-width: 95vw;
+    padding: .3rem;
 }
 .input-container,
 .select-container,
 .radio-container,
 .textarea-container,
 .checkbox-container {
+    border: 1px solid gray;
+    border-radius: .1rem;
     display: flex;
+    min-width: 90vw;
     padding: .5rem;
 }
 .radio-container {
