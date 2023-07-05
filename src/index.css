@@ -1,3 +1,9 @@
+:root {
+    --input-border: 2px solid silver;
+    --border-radius: .1rem;
+    --border-radius2: .2rem;
+}
+
 *,
 *::after,
 *::before {
@@ -43,7 +49,9 @@ h1 {
 h2 {
     font-weight: 700;
     padding: .5rem 1rem;
+    text-align: center;
 }
+
 a {
     align-self: center;
     text-decoration: none;
@@ -61,6 +69,7 @@ ul[role='list'],
 ol[role='list'] {
   list-style: none;
 }
+
 svg,
 img,
 picture,
@@ -91,6 +100,12 @@ main {
     flex-direction: column;
     flex: 1;
     min-width: 100vw;
+}
+
+.form-page-container,
+.home-page-container {
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
@@ -131,6 +146,7 @@ nav {
     min-width: 100vw;
 }
 
+/* buttons and links */
 ul:hover > * {
     color: gray;
 }
@@ -147,18 +163,117 @@ ul:active > * {
     fill: lightgray;
 }
 
-.link-button {
-    background-color:gray;
-    border: 1px solid lightgray;
-    border-radius: .2rem;
+.button-box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 100vw;
+    min-height: 15rem;
+    min-width: 20vw;
+    padding: 1rem;
+}
+
+.link-button,
+button {
+    background-color: rgb(142, 142, 142);
+    border: 2px solid lightgray;
+    border-radius: var(--border-radius2);
+    color: #0A0A0A;
+    margin: .5rem;
+    max-width: 15rem;
+    padding: .75rem;
+}
+
+.link-button:hover,
+button:hover {
+    background-color: white;
+    color: rgb(51, 51, 51);
+
+}
+
+.link-button:active,
+button:active {
+    background-color: rgb(210, 209, 209);
+    border: 1px solid white;
+    color: rgb(51, 51, 51);
+    padding: .81rem;
+}
+.button-hover {
+    background-color: white;
+    color: rgb(51, 51, 51);
+}
+
+.button-active {
+    background-color: rgb(210, 209, 209);
+    border: 1px solid white;
+    color: rgb(51, 51, 51);
+    padding: .81rem;
+
+}
+
+/* Form */
+.my-form-container {
+    align-items: center;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    justify-content: space-around;
+    min-width: 95vw;
+    padding: .3rem;
+}
+.input-container,
+.select-container,
+.radio-container,
+.textarea-container,
+.checkbox-container {
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: var(--border-radius);
+    display: flex;
+    justify-content: center;
+    margin: .2rem;
+    min-width: 90vw;
     padding: .5rem;
 }
-button {
-    color: gray;
+.select-container > select {
+    min-width: 40vw;
 }
-/* Button  */
-/* Hovers and Actives  */
-/* Form */
+.radio-container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+legend,
+label {
+    color: rgb(218, 218, 218);
+}
+
+input,
+textarea {
+    background-color: rgb(122, 122, 122);
+    border: var(--input-border);
+    border-radius: var(--border-radius);
+    color: rgb(218, 218, 218);
+    padding: .3rem .5rem;
+}
+
+.my-input {
+    min-width: 60vw;
+}
+
+.my-textarea {
+    min-height: 5rem;
+    min-width: 70vw;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgb(218, 218, 218);
+}
 
 /* Accessibility Features ----------------------------- */
 .skip-link {
@@ -225,8 +340,30 @@ button {
         padding: .3rem 1rem;
     }
     main {
-        align-items: normal;
+        /* align-items: normal; */
+        align-items: center;
         display: flex;
+    }
+    .my-form-container {
+        font-size: medium;
+        max-width: 60vw;
+        padding: .5rem;
+    }
+    .input-container,
+    .select-container,
+    .radio-container,
+    .textarea-container,
+    .checkbox-container {
+        margin: .3rem;
+        min-width: 55vw;
+    }
+    .my-input {
+        min-width: 45vw;
+    }
+    
+    .my-textarea {
+        min-height: 5rem;
+        min-width: 50vw;
     }
 }
 /* Nest Hub 1024 width (by 600) */
@@ -267,8 +404,30 @@ button {
         padding: .3rem 1rem;
     }
     main {
-        align-items: normal;
+        /* align-items: normal; */
+        align-items: center;
         display: flex;
+    }
+    .my-form-container {
+        font-size: medium;
+        max-width: 70vw;
+        padding: .5rem;
+    }
+    .input-container,
+    .select-container,
+    .radio-container,
+    .textarea-container,
+    .checkbox-container {
+        margin: .3rem;
+        min-width: 65vw;
+    }
+    .my-input {
+        min-width: 45vw;
+    }
+    
+    .my-textarea {
+        min-height: 5rem;
+        min-width: 50vw;
     }
 }
 
@@ -307,15 +466,40 @@ button {
     .nav-root,
     .nav-profile,
     .nav-scoreboard {
+        background-color: rgb(51, 51, 51);
         border: 1px solid white;
         margin: 0 .5rem;
         padding: .3rem .5rem;
+    }
+    .nav-bar > * > * {
+        background-color: rgb(51, 51, 51);
+    }
+    .my-form-container {
+        font-size: medium;
+        min-width: 70vw;
+        padding: .5rem;
+    }
+    .input-container,
+    .select-container,
+    .radio-container,
+    .textarea-container,
+    .checkbox-container {
+        margin: .3rem;
+        min-width: 65vw;
+    }
+    .my-input {
+        min-width: 45vw;
+    }
+    
+    .my-textarea {
+        min-height: 5rem;
+        min-width: 50vw;
     }
 }
 
 /* Surface Duo 540(720) width up to iPad Mini width: */
 @media (540px <= width <= 767px) {
-        .top-container {
+    .top-container {
         border-bottom: none;
     }
     header {
@@ -324,6 +508,26 @@ button {
     }
     h1 {
         font-size: 2rem;
+    }
+    .my-form-container {
+        min-width: 80vw;
+        padding: .5rem;
+    }
+    .input-container,
+    .select-container,
+    .radio-container,
+    .textarea-container,
+    .checkbox-container {
+        margin: .3rem;
+        min-width: 75vw;
+    }
+    .my-input {
+        min-width: 50vw;
+    }
+    
+    .my-textarea {
+        min-height: 5rem;
+        min-width: 60vw;
     }
 }
 
@@ -339,5 +543,8 @@ button {
     }
     h1 {
         font-size: 1.6rem;
+    }
+    .nav-bar {
+        font-size: small;
     }
 }
