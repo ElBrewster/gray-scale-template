@@ -228,15 +228,20 @@ button:active {
 .radio-container,
 .textarea-container,
 .checkbox-container {
+    align-items: center;
     border: 1px solid gray;
     border-radius: var(--border-radius);
     display: flex;
+    justify-content: center;
     margin: .2rem;
     min-width: 90vw;
     padding: .5rem;
 }
 .radio-container {
+    align-items: flex-start;
+    display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 }
 
 legend,
@@ -250,7 +255,7 @@ textarea {
     border: var(--input-border);
     border-radius: var(--border-radius);
     color: rgb(218, 218, 218);
-
+    min-width: 40vw;
     padding: .3rem .5rem;
 }
 
