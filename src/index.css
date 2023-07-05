@@ -221,6 +221,9 @@ button:active {
     display: flex;
     padding: .5rem;
 }
+.radio-container {
+    flex-direction: column;
+}
 
 legend,
 label,

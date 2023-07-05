@@ -24,14 +24,20 @@ export default function Form() {
             </div>
             <fieldset className="radio-container">
                 <legend>Let's Have Some Radios!!!</legend>
-                <input type="radio" value="yes"/>
-                <label htmlFor="yes"></label>
+                <div className="radio-button-container">
+                    <input type="radio" value="yes"/>
+                    <label htmlFor="yes">&nbsp;Yes</label>
+                </div>
                 <br />
-                <input type="radio" value="no"/>
-                <label htmlFor="no"></label>
+                <div className="radio-button-container">
+                    <input type="radio" value="no"/>
+                    <label htmlFor="no">&nbsp;No</label>
+                </div>
                 <br />
-                <input type="radio" value="occasionally"/>
-                <label htmlFor="occasionally"></label>
+                <div className="radio-button-container">
+                    <input type="radio" value="occasionally"/>
+                    <label htmlFor="occasionally">&nbsp;Occasionally</label>
+                </div>
             </fieldset>
             <div className="textarea-container">
                 <textarea name="comments" placeholder="Add Your Comments!"/>
