@@ -3,15 +3,15 @@ export default function Form() {
         <form className="my-form-container">
             <div className="input-container">
                 <label htmlFor="my-input" className="input-label">My Input:&nbsp;</label>
-                <input type="text" name="my-input" placeholder="my input"/>
+                <input type="text" name="my-input" className="my-input" placeholder="my input"/>
             </div>
             <div className="input-container">
                 <label htmlFor="my-input" className="input-label">My Input:&nbsp;</label>
-                <input type="text" name="my-input" placeholder="my input"/>
+                <input type="text" name="my-input" className="my-input" placeholder="my input"/>
             </div>
             <div className="input-container">
                 <label htmlFor="my-input" className="input-label">My Input:&nbsp;</label>
-                <input type="text" name="my-input" placeholder="my input"/>
+                <input type="text" name="my-input" className="my-input" placeholder="my input"/>
             </div>
             <div className="select-container">
                 <label htmlFor="my-select" className="select-label"></label>
@@ -40,7 +40,7 @@ export default function Form() {
                 </div>
             </fieldset>
             <div className="textarea-container">
-                <textarea name="comments" placeholder="Add Your Comments!"/>
+                <textarea name="comments" className="my-textarea" placeholder="Add Your Comments!"/>
             </div>
             <div className="checkbox-container">
                 <input type="checkbox" name="completed-survey"/>

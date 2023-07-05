@@ -255,10 +255,15 @@ textarea {
     border: var(--input-border);
     border-radius: var(--border-radius);
     color: rgb(218, 218, 218);
-    min-width: 40vw;
     padding: .3rem .5rem;
 }
-
+.my-input {
+    min-width: 60vw;
+}
+.my-textarea {
+    min-height: 5rem;
+    min-width: 70vw;
+}
 input::placeholder,
 textarea::placeholder {
     color: rgb(218, 218, 218);
@@ -422,7 +427,7 @@ textarea::placeholder {
 
 /* Surface Duo 540(720) width up to iPad Mini width: */
 @media (540px <= width <= 767px) {
-        .top-container {
+    .top-container {
         border-bottom: none;
     }
     header {
@@ -446,5 +451,8 @@ textarea::placeholder {
     }
     h1 {
         font-size: 1.6rem;
+    }
+    .nav-bar {
+        font-size: small;
     }
 }
