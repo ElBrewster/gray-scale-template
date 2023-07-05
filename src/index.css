@@ -340,8 +340,30 @@ textarea::placeholder {
         padding: .3rem 1rem;
     }
     main {
-        align-items: normal;
+        /* align-items: normal; */
+        align-items: center;
         display: flex;
+    }
+    .my-form-container {
+        font-size: medium;
+        max-width: 60vw;
+        padding: .5rem;
+    }
+    .input-container,
+    .select-container,
+    .radio-container,
+    .textarea-container,
+    .checkbox-container {
+        margin: .3rem;
+        min-width: 55vw;
+    }
+    .my-input {
+        min-width: 45vw;
+    }
+    
+    .my-textarea {
+        min-height: 5rem;
+        min-width: 50vw;
     }
 }
 /* Nest Hub 1024 width (by 600) */
@@ -382,8 +404,30 @@ textarea::placeholder {
         padding: .3rem 1rem;
     }
     main {
-        align-items: normal;
+        /* align-items: normal; */
+        align-items: center;
         display: flex;
+    }
+    .my-form-container {
+        font-size: medium;
+        max-width: 70vw;
+        padding: .5rem;
+    }
+    .input-container,
+    .select-container,
+    .radio-container,
+    .textarea-container,
+    .checkbox-container {
+        margin: .3rem;
+        min-width: 65vw;
+    }
+    .my-input {
+        min-width: 45vw;
+    }
+    
+    .my-textarea {
+        min-height: 5rem;
+        min-width: 50vw;
     }
 }
 
