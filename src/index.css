@@ -237,6 +237,9 @@ button:active {
     min-width: 90vw;
     padding: .5rem;
 }
+.select-container > select {
+    min-width: 40vw;
+}
 .radio-container {
     align-items: flex-start;
     display: flex;
@@ -257,17 +260,21 @@ textarea {
     color: rgb(218, 218, 218);
     padding: .3rem .5rem;
 }
+
 .my-input {
     min-width: 60vw;
 }
+
 .my-textarea {
     min-height: 5rem;
     min-width: 70vw;
 }
+
 input::placeholder,
 textarea::placeholder {
     color: rgb(218, 218, 218);
 }
+
 /* Accessibility Features ----------------------------- */
 .skip-link {
     height: 1px;
