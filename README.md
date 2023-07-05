@@ -29,6 +29,7 @@ Swap this gray for this blue of the same value:
 [RGB to grayscale tool](https://goodcalculators.com/rgb-to-grayscale-conversion-calculator/)
 [Wikipedia on Grayscale](https://en.wikipedia.org/wiki/Grayscale)
 [Wikipedia on Color Contrast](https://en.wikipedia.org/wiki/Web_colors#Color_contrast)
+[hsl sliders](https://www.w3schools.com/colors/colors_hsl.asp)
 
 ## Other Accessibility Links
 
