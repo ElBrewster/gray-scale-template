@@ -218,13 +218,14 @@ button:active {
 .radio-container,
 .textarea-container,
 .checkbox-container {
+    
     padding: .5rem;
 }
 
 legend,
 label,
 input {
-    color: rgb(51, 51, 51);
+    color: rgb(231, 231, 231);
     
 }
 /* Accessibility Features ----------------------------- */
