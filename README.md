@@ -18,6 +18,11 @@ Swap this gray for this blue of the same value:
 
 <img width="598" alt="Screen Shot 2023-06-28 at 2 06 31 PM" src="https://github.com/ElBrewster/grayscale-template/assets/113723085/33af0c38-4791-4fe7-9f18-27890c64a8aa">
 
+## Some Current Views
+<img width="631" alt="Screen Shot 2023-07-05 at 2 58 52 PM" src="https://github.com/ElBrewster/grayscale-template/assets/113723085/888795f0-0b0f-43f6-b18c-264575a71fa6">
+<img width="560" alt="Screen Shot 2023-07-05 at 2 59 05 PM" src="https://github.com/ElBrewster/grayscale-template/assets/113723085/8538e6df-23a9-4b37-9a9a-7903e6f6d3c9">
+
+
 ## Helpful Stuff
 
 [eyedropper Chrome extension](https://mybrowseraddon.com/color-picker.html)
