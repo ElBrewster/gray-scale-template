@@ -240,6 +240,11 @@ label {
 
 input,
 textarea {
+    background-color: rgb(122, 122, 122);
+    border: 2px solid silver;
+    border-radius: .1rem;
+    color: rgb(218, 218, 218);
+
     padding: .3rem .5rem;
 }
 /* Accessibility Features ----------------------------- */
