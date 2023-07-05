@@ -213,7 +213,13 @@ button:active {
     flex-direction: column;
     justify-content: space-around;
 }
-
+.input-container,
+.select-container,
+.radio-container,
+.textarea-container,
+.checkbox-container {
+    padding: .5rem;
+}
 /* Accessibility Features ----------------------------- */
 .skip-link {
     height: 1px;
