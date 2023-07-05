@@ -2,15 +2,15 @@ export default function Form() {
     return (
         <form className="my-form-container">
             <div className="input-container">
-                <label htmlFor="my-input" className="input-label">My Input</label>
+                <label htmlFor="my-input" className="input-label">My Input:&nbsp;</label>
                 <input type="text" name="my-input" placeholder="my input"/>
             </div>
             <div className="input-container">
-                <label htmlFor="my-input" className="input-label">My Input</label>
+                <label htmlFor="my-input" className="input-label">My Input:&nbsp;</label>
                 <input type="text" name="my-input" placeholder="my input"/>
             </div>
             <div className="input-container">
-                <label htmlFor="my-input" className="input-label">My Input</label>
+                <label htmlFor="my-input" className="input-label">My Input:&nbsp;</label>
                 <input type="text" name="my-input" placeholder="my input"/>
             </div>
             <div className="select-container">
@@ -38,7 +38,7 @@ export default function Form() {
             </div>
             <div className="checkbox-container">
                 <input type="checkbox" name="completed-survey"/>
-                <label htmlFor="completed-survey">Did you complete our survey?</label>
+                <label htmlFor="completed-survey">&nbsp;Did you complete our survey?</label>
             </div>
             <button>SUBMIT</button>
         </form>

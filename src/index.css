@@ -218,7 +218,7 @@ button:active {
 .radio-container,
 .textarea-container,
 .checkbox-container {
-    
+    display: flex;
     padding: .5rem;
 }
 
